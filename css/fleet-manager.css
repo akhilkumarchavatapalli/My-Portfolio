@@ -1,0 +1,256 @@
+.section
+{
+    padding: 80px 10% 10px;
+}
+.project-title
+{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    top: 0;
+    left: 50%;
+    border-bottom: 2px solid var(--primary-color);
+    text-align: left;
+}
+.project-title-text {
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    margin-top: 0.5rem;
+    /* background-color: brown; */
+}
+.project-title-text h1
+{
+    font-size: var(--h1-font);
+    font-weight: 600;
+    color: var (--text-color);
+    padding: 1rem;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    /* background-color: var(--primary-color); */
+    border-radius: var(--border-radius);
+    /* text-align: left;  */
+    /* position: relative; */
+}
+.project-title-text h1 span
+{
+    color: var(--primary-color);
+}
+.project-title-text p
+{
+    font-size: var(--p-font);
+    color: var(--text-color);
+}
+.project-title-text h4
+{
+    font-size: var(--h4-font);
+    color: var(--text-color);
+}
+.project-title-text h3
+{
+    font-size: var(--h3-font);
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+.project-description
+{
+    margin-top: 0rem;
+    align-items: center;
+    justify-content: center;
+}
+.project-description h2
+{
+    font-size: var(--h2-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.project-description h3
+{
+    font-size: var(--h3-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.project-description h4
+{
+    font-size: var(--h4-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.project-description p
+{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    text-indent: 2rem; /* Added text indentation */
+}
+.project-description p span
+{
+    color: var(--primary-color);
+}
+.project-key-features
+{
+    margin-top: 0rem;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 10%;
+}
+.project-key-features h2
+{
+    font-size: var(--h2-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.project-key-features h3
+{
+    font-size: var(--h3-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.project-key-features h4
+{
+    font-size: var(--h4-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.project-key-features ul
+{
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 20px; /* Add some left padding for the list */
+}
+.project-key-features ul li
+{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+.project-key-features ul li span
+{
+    color: var(--primary-color);
+}
+.feature-row
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+.feature-row img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--secondary-color);
+    box-shadow: var(--shadow);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.my-contributions
+{
+    padding: 1rem 10%;
+    margin-top: 0rem;
+    align-items: center;
+    justify-content: center;
+}
+.my-contributions-text h3
+{
+    font-size: var(--h3-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.my-contributions-text p
+{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    text-indent: 2rem; /* Added text indentation */
+}
+.my-contributions-text p span
+{
+    color: var(--primary-color);
+}
+.results
+{
+    padding: 1rem 10%;
+    margin-top: 0rem;
+    align-items: center;
+    justify-content: center;
+}
+.results-text h3
+{
+    font-size: var(--h3-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.results-text p
+{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    text-indent: 2rem; /* Added text indentation */
+}
+.results-text p span
+{
+    color: var(--primary-color);
+}
+.team-acknowledgment
+{
+    padding: 1rem 10%;
+    margin-top: 0rem;
+    align-items: center;
+    justify-content: center;
+}
+.team-acknowledgment-text h3
+{
+    font-size: var(--h3-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.team-acknowledgment-text h4
+{
+    font-size: var(--h4-font);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.team-acknowledgment-text p
+{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    text-indent: 2rem; /* Added text indentation */
+}
+.team-acknowledgment-text p span
+{
+    color: var(--primary-color);
+}
+.team-acknowledgment-text a
+{
+    color: var(--text-color);
+    font-size: var(--h5-font);
+    font-weight: 500;
+    margin-top: 20px;
+    text-indent: 5rem;
+}
+.team-acknowledgment-text a:hover
+{
+    color: var(--primary-color);
+}
+/* Responsive Styles */
+@media screen and (max-width: 811px) {
+    .feature-row {
+        grid-template-columns: 1fr; /* Stack the images on smaller screens */
+        gap: 1rem;
+    }
+    .feature-row img {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 1rem; /* Adjust margin for smaller screens */
+    }
+    .feature-text {
+        text-align: center; /* Center text on smaller screens */
+    }
+}
+

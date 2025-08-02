@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhilkumar Chavatapalli</title>
+    <meta name="description" content="Welcome to my personal portfolio website! I'm Akhilkumar Chavatapalli, a passionate engineer with a keen interest in solving real-world problems. Explore my projects, career timeline, and get in touch!">
+    <meta name="keywords" content="Akhilkumar Chavatapalli, portfolio, software engineer, robotics, projects, career timeline, contact">
+    <meta name="author" content="Akhilkumar Chavatapalli">
+    <meta name="theme-color" content="#000000">
+    <!-- <link rel="canonical" href="https://www.example.com/"> -->
+     <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../../img/NSK.png">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="../../../css/root.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/home.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/fleet-manager.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- google fonts-quicksand font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="/" class="logo">Akhilkumar Chavatapalli</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="/" data-scroll="#home">Home</a></li>
+            <li><a href="/" data-scroll="#about">About Me</a></li>
+            <li><a href="/" data-scroll="#career">Career</a></li>
+            <li><a href="/" data-scroll="#projects">Projects</a></li>
+            <!-- <li><a href="/" data-scroll="#blogs">Blogs</a></li> -->
+            <li><a href="/" data-scroll="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!-- end of header -->
+    <!-- project title section -->
+    <section class="project-title">
+        <div class="project-title-text">
+            <h1>Quality Control of Products on a Production Line using a 4 DOF Delta Robot</h1>
+        </div>    
+    </section>
+    <!-- project description section -->
+    <section class="project-description">
+        <div class="project-description-text">
+            <h3>Project Description</h3>
+            <p>The <span>Quality Control of Products on a Production Line using a 4 DOF Delta Robot</span> was a <strong>Senior Design Project - 2023</strong> aimed at building an integrated inspection and sorting system that identifies and removes defective products from a production line using a Delta robot and machine learning.</p>
+            <p>The system leverages <span>MobileNetV2</span> CNN for defect detection and a <span>4 DOF Delta Robot</span> to remove defective products, minimizing human intervention and enhancing productivity. It combines real-time image processing, socket-based robotic control, and automated sorting in a streamlined pipeline.</p>
+        </div>
+        <div class="project-description-text">
+            <h4>Technologies Used</h4>
+            <p>Python, OpenCV, TensorFlow/Keras (MobileNetV2), Custom Tkinter GUI, Socket Programming, 4-DOF Delta Kinematics, IR Sensors</p>
+        </div>
+    </section>
+
+    <!-- project key features section -->
+    <section class="project-key-features">
+        <div class="project-key-features-text">
+            <h3>Key Features</h3>
+            <h4>System Overview</h4>
+            <div class="feature-row">
+                <div class="feature-image">
+                    <img src="../../../img/qc_4dof1.JPG" alt="Akhilkumar Chavatapalli; Control System with Delta Robot and Conveyor">
+                </div>
+                <div class="feature-text">
+                    <ul>
+                        <li><span>Integrated Workflow:</span> Conveyor and IR sensors trigger real-time inspection and sorting operations.</li>
+                        <li><span>MobileNetV2 CNN:</span> Ensures reliable image-based defect detection with low computational load.</li>
+                        <li><span>Autonomous Sorting:</span> Delta Robot picks defective products upon IR sensor trigger and CNN result.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h4>Delta Robot (4 DOF)</h4>
+            <div class="feature-row">
+                <div class="feature-image">
+                    <img src="../../../img/qc_4dof2.jpg" alt="Akhilkumar Chavatapalli; 4 DOF Delta Robot - Bottom View with Magnetic Actuator">
+                </div>
+                <div class="feature-text">
+                    <ul>
+                        <li><span>Precision Picking:</span> Magnetic end-effector safely removes faulty units from conveyor.</li>
+                        <li><span>Repeatability:</span> Mechanism accuracy demonstrated via grid test using laser pointer.</li>
+                        <li><span>Socket Mirrored Simulation:</span> Physical movements reflected in real-time on a Simulink model over a socket link.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h4>Live Demonstration</h4>
+            <div class="feature-row">
+                <div class="feature-image">
+                    <iframe width="100%" height="400" 
+                        src="https://www.youtube.com/embed/CZPQCsQVSR8" 
+                        title="Quality Control Delta Robot Demo" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="feature-text">
+                    <ul>
+                        <li><span>System Demo:</span> Full cycle of detection, prediction, and robotic action demonstrated.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- my contributions section -->
+    <section class="my-contributions">
+        <div class="my-contributions-text">
+            <h3>My Contributions</h3>
+            <p>As the <span>Core Developer</span> for this project, I designed and built the 4 DOF Delta Robot hardware and integrated a <span>real-time socket interface</span> to mirror its motion with a Simulink-based simulation model. I also developed a <span>custom GUI using Tkinter</span> to control and monitor robot behavior during testing and operation.</p>
+        </div>
+    </section>
+
+    <!-- result section -->
+    <section class="results">
+        <div class="results-text">
+            <h3>Project Outcomes & Impact</h3>
+            <p>This project successfully demonstrated a functional prototype capable of classifying products using deep learning and autonomously handling defective items using robotics. The use of <span>MobileNetV2 and Delta robot automation</span> ensured accuracy, speed, and reliability.</p>
+            <p>It validated a <span>real-time inspection and sorting system</span> that can be adapted across various manufacturing domains for scalable, low-cost quality control solutions.</p>
+        </div>
+    </section>
+
+    <!-- team member acknowledgment section -->
+    <section class="team-acknowledgment">
+        <div class="team-acknowledgment-text">
+            <h3>Team Acknowledgment</h3>
+            <p>This project was a collaborative effort alongside a dedicated team, with each member contributing to the design, simulation, and overall development. Their expertise in mechanical design, control systems, and documentation played a vital role in bringing the prototype to life.</p>
+            <h4>Team Members:</h4>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/nakul-sk" target="_blank">Akhilkumar Chavatapalli</a></li>
+                <li><a href="https://www.linkedin.com/in/patanjali-joshi-8aa1a8197" target="_blank">Patanjali Joshi</a></li>
+                <li><a href="https://www.linkedin.com/in/sunilkumar-bisali-342617184" target="_blank">Sunil Bisali</a></li>
+                <li><a href="https://www.linkedin.com/in/shrinivas-sutar4" target="_blank">Shrinivas Sutar</a></li>
+                <li><a href="https://www.linkedin.com/in/pavanpatil72826" target="_blank">Pavan Patil</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- back to top button -->
+    <a href="#" class="back-to-top"><i class='bx bx-chevron-up'></i></a>
+    <!-- back to home button -->
+    <a href="/" class="back-to-home"><i class='bx bx-arrow-back'></i></a>
+    <!-- footer section -->
+    <footer>
+        <div class="footer-text">
+            <p>Developed by Akhilkumar Chavatapalli. &copy; 2025 </p>
+        </div>
+    </footer>
+    <!-- js file -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="../../../js/script.js"></script>
+    
+</body>
+</html></div>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nakul Sharathkumar</title>
+    <meta name="description" content="Welcome to my personal portfolio website! I'm Nakul Sharathkumar, a passionate engineer with a keen interest in solving real-world problems. Explore my projects, career timeline, and get in touch!">
+    <meta name="keywords" content="Nakul Sharathkumar, portfolio, software engineer, robotics, projects, career timeline, contact">
+    <meta name="author" content="Nakul Sharathkumar">
+    <meta name="theme-color" content="#000000">
+    <!-- <link rel="canonical" href="https://www.example.com/"> -->
+     <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../../img/NSK.png">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="../../../css/root.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/home.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/fleet-manager.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- google fonts-quicksand font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="/" class="logo">Nakul Sharathkumar</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="/" data-scroll="#home">Home</a></li>
+            <li><a href="/" data-scroll="#about">About Me</a></li>
+            <li><a href="/" data-scroll="#career">Career</a></li>
+            <li><a href="/" data-scroll="#projects">Projects</a></li>
+            <!-- <li><a href="/" data-scroll="#blogs">Blogs</a></li> -->
+            <li><a href="/" data-scroll="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!-- end of header -->
+    <!-- project title section -->
+    <section class="project-title">
+        <div class="project-title-text">
+            <h1>4 DoF Delta Robot</h1>
+        </div>    
+    </section>
+    <!-- project description section -->
+    <section class="project-description">
+        <div class="project-description-text">
+            <h3>Project Description</h3>
+            <p>The <span>4-DOF Delta Robot for Precision Demonstration</span> was developed as a cost-efficient, power-conscious solution to showcase high-accuracy motion control. The robot is designed with maximum repeatability, forming the foundation for future integration into inspection and quality control systems in industrial settings.</p>
+            <p>The current prototype emphasizes structural accuracy and movement precision. A laser pointer mounted on the end-effector highlights repeatability by pointing at predefined grid points, demonstrating the robot's capability to return to the same positions with minimal deviation.</p>
+            <p>To enhance usability and verification, a custom-built UI using <span>CustomTkinter</span> allows real-time control of the robot. Additionally, a Simulink-based digital twin mirrors the robot's movement through socket programming, enabling a synchronized physical-virtual testing environment. Both of these systems were developed as part of the core software contributions to this project.</p>
+        </div>
+        <div class="project-description-text">
+            <h4>Technologies Used</h4>
+            <p>4-DOF Delta Kinematics, CustomTkinter, Python Sockets, MATLAB Simulink, BLDC Motors, Laser Pointer, Embedded Microcontrollers</p>
+        </div>
+    </section>
+
+    <!-- project key features section -->
+    <section class="project-key-features">
+        <div class="project-key-features-text">
+            <h3>Key Features</h3>
+            <h4>Full System Overview</h4>
+            <div class="feature-row">
+                <div class="feature-image">
+                    <img src="../../../img/4dof delta robot1.jpg" alt="Nakul Sharathkumar; Full Delta Robot System">
+                </div>
+                <div class="feature-text">
+                    <ul>
+                        <li><span>4 Degrees of Freedom:</span> Enables complex motion patterns with optimal mechanical precision.</li>
+                        <li><span>Laser-Based Repeatability Test:</span> Demonstrates positional accuracy by targeting fixed points on a grid below.</li>
+                        <li><span>Modular Structure:</span> Designed for future expansion including vision systems and gripping mechanisms.</li>
+                    </ul>
+                </div>
+            </div>
+            <h4>Delta Robot Arm</h4>
+            <div class="feature-row">
+                <div class="feature-image">
+                    <img src="../../../img/4dof delta robot2.jpg" alt="Nakul Sharathkumar; 4-DOF Delta Robot Arm">
+                </div>
+                <div class="feature-text">
+                    <ul>
+                        <li><span>High Repeatability:</span> Shows minimal deviation when returning to designated positions over multiple cycles.</li>
+                        <li><span>Laser Pointer Integration:</span> A low-power laser points to target grid locations for visual confirmation of motion precision.</li>
+                        <li><span>Lightweight Build:</span> CAD-designed frame for rigidity and low inertia.</li>
+                    </ul>
+                </div>
+            </div>
+            <h4>Custom UI + Simulation Link</h4>
+            <div class="feature-row">
+                <div class="feature-image">
+                    <iframe width="100%" height="400" 
+                        src="https://www.youtube.com/embed/35eGu-_0rnc" 
+                        title="Delta Robot Repeatability Demo" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="feature-text">
+                    <ul>
+                        <li><span>CustomTkinter UI:</span> Interactive Python-based interface for manual control of robot joints and real-time status display.</li>
+                        <li><span>Socket Communication:</span> Bi-directional data exchange between physical robot and Simulink model through sockets.</li>
+                        <li><span>Digital Twin:</span> Simulink model mirrors real-time movements, aiding in calibration and simulation testing.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- My contributions section -->
+    <section class="my-contributions">
+        <div class="my-contributions-text">
+            <h3>My Contributions</h3>
+            <p>As the <span>Lead Developer</span>, I developed a real-time <span>CustomTkinter-based control UI</span> and implemented a <span>socket communication bridge</span> to link the robot's movements with its Simulink digital twin. This enabled synchronized control and monitoring between physical and virtual environments, supporting calibration and simulation verification.</p>
+        </div>
+    </section>
+
+    <!-- result section -->
+    <section class="results">
+        <div class="results-text">
+            <h3>Project Outcomes & Impact</h3>
+            <p>The <span>4-DOF Delta Robot</span> project successfully demonstrated high-precision repeatability using a non-contact laser alignment method. The robot was able to consistently return to marked points, verifying its capability for accurate operations in pick-and-place tasks.</p>
+            <p>The project introduced a <span>functional prototype platform</span> for future integration with vision systems and end-effectors. The dual-mode testing (physical + virtual via Simulink) validated the system's reliability</p>
+        </div>
+    </section>
+    <!-- team member acknowledgment section -->
+    <section class="team-acknowledgment">
+        <div class="team-acknowledgment-text">
+            <h3>Team Acknowledgment</h3>
+            <p>This project was a collaborative effort alongside a dedicated team, with each member contributing to the design, simulation, and overall development. Their expertise in mechanical design, control systems, and documentation played a vital role in bringing the prototype to life.</p>
+            <h4>Team Members:</h4>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/nakul-sk" target="_blank">Nakul Sharathkumar</a></li>
+                <li><a href="https://www.linkedin.com/in/patanjali-joshi-8aa1a8197" target="_blank">Patanjali Joshi</a></li>
+                <li><a href="https://www.linkedin.com/in/sunilkumar-bisali-342617184" target="_blank">Sunil Bisali</a></li>
+                <li><a href="https://www.linkedin.com/in/shrinivas-sutar4" target="_blank">Shrinivas Sutar</a></li>
+                <li><a href="https://www.linkedin.com/in/pavanpatil72826" target="_blank">Pavan Patil</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- back to top button -->
+    <a href="#" class="back-to-top"><i class='bx bx-chevron-up'></i></a>
+    <!-- back to home button -->
+    <a href="/" class="back-to-home"><i class='bx bx-arrow-back'></i></a>
+    <!-- footer section -->
+    <footer>
+        <div class="footer-text">
+            <p>Developed by Nakul Sharathkumar. &copy; 2025 </p>
+        </div>
+    </footer>
+    <!-- js file -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="../../../js/script.js"></script>
+    
+</body>
+</html></div>
