@@ -9,11 +9,14 @@
 }
 
 :root {
-    --bg-color: #080808;
-    --text-color: #ffffff;
-    --primary-color: #1ABC9C; /* Turquoise */
-    --secondary-color: #d8d8d8;
-    --other-color: #12141c;
+    --bg-color: #0F0F1A;
+    --text-color: #F5F5F5;
+    --primary-color: #B8860B; /* Dark Mustard */
+    --primary-hover: #DAA520; /* Mustard Gold */
+    --secondary-color: #FFD700;
+    --contrast-text: #FFFFFF;
+    --other-color: #1A1A2E;
+
     --h1-font: 5.2rem;
     --h2-font: 3.8rem;
     --h3-font: 2.5rem;
@@ -24,10 +27,12 @@
     --logo-font: 2.5rem;
     --border-radius: 0.5rem;
     --shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
     --linkedin-color: #0072b1;
-    --github-color: #333;
-    --contrast-text: #ffffff; /* White text is visible on turquoise */
+    --github-color: #24292e;
 }
+
+
 
 body {
     background-color: var(--bg-color);
@@ -135,7 +140,7 @@ section {
 }
 
 .youtube-btn {
-    background-color: var(--primary-color); /* Turquoise */
+    background-color: var(--primary-color);
     color: var(--contrast-text);
     padding: 10px 16px;
     border-radius: var(--border-radius);
@@ -149,6 +154,7 @@ section {
 }
 
 .youtube-btn:hover {
-    background-color: #17a589; /* Slightly darker turquoise */
+    background-color: var(--primary-hover);
     transform: translateY(-2px);
 }
+
