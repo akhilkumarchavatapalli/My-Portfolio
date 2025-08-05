@@ -9,13 +9,15 @@
 }
 
 :root {
-    --bg-color: #0F0F1A;
+    --bg-color: #121212;
     --text-color: #F5F5F5;
-    --primary-color: #B8860B; /* Dark Mustard */
-    --primary-hover: #DAA520; /* Mustard Gold */
-    --secondary-color: #FFD700;
+    --primary-color: #FF6F00;   /* Kesari Orange */
+    --primary-hover: #E65100;   /* Deep Saffron */
+    --secondary-color: #FFA500; /* Vibrant Orange */
+    --accent-color: #FFD54F;    /* Soft Saffron Glow */
+    --hover-glow: #FF5722;
     --contrast-text: #FFFFFF;
-    --other-color: #1A1A2E;
+    --other-color: #1E1E1E;
 
     --h1-font: 5.2rem;
     --h2-font: 3.8rem;
@@ -27,10 +29,9 @@
     --logo-font: 2.5rem;
     --border-radius: 0.5rem;
     --shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-
-    --linkedin-color: #0072b1;
-    --github-color: #24292e;
 }
+
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
