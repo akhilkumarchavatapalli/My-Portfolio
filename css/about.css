@@ -9,18 +9,30 @@
     justify-content: center;
     align-items: center;
 }
-.about{
+.about {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12rem;
+    grid-template-columns: 2fr 1fr; /* Make text area wider */
+    gap: 6rem;
     align-items: center;
 }
+
+.about-text {
+    max-width: 100%;
+}
+
 .about-text p {
     font-size: var(--p-font);
     color: var(--text-color);
-    margin-bottom: 1.5rem; /* changed from 1rem to 1.5rem for better spacing */
+    margin-bottom: 1.5rem;
     text-indent: 2rem;
+    line-height: 1.8; /* better readability */
 }
+.about-text p span {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
 .about-text h2
 {
     font-size: var(--h2-font);
