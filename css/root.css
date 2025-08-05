@@ -31,9 +31,6 @@
     --linkedin-color: #0072b1;
     --github-color: #24292e;
 }
-
-
-
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
